@@ -1,4 +1,78 @@
 .wrapper {
-    height: 100vh;
-    background-color: red;
+  height: 100vh;
+  color: white;
+  display: grid;
+  place-content: center;
+  padding: 0 80px;
+
+  .info-wrapper {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 82px;
+    align-items: center;
+    padding: 82px 59px 133px;
+    border: 11px solid #ffffff;
+    box-shadow: 1px 1px 39px 8px rgba(255, 0, 0, 0.64);
+    border-radius: 61px;
+  }
+
+  .info {
+    .title {
+      font-family: "Happy Monkey";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 33px;
+      line-height: 40px;
+      text-align: center;
+      margin-bottom: 48px;
+      color: #ffffff;
+    }
+
+    .paragraph {
+      font-family: "Hammersmith One";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 33px;
+      line-height: 41px;
+
+      color: #ffffff;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .info-wrapper {
+      display: block;
+      padding: 60px 30px 100px;
+    }
+
+    .img {
+      display: grid;
+      place-content: center;
+    }
+
+    .info {
+      .title {
+        margin: 48px 0;
+      }
+
+      .paragraph {
+        font-size: 27px;
+        text-align: center;
+      }
+    }
+  }
+  @media (max-width: 428px) {
+    .info-wrapper {
+      display: block;
+      padding: 55px 44px;
+    }
+    .info {
+      .title {
+        font-size: 24px;
+      }
+      .paragraph {
+        font-size: 20px;
+      }
+    }
+  }
 }
