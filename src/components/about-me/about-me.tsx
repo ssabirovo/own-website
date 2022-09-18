@@ -1,11 +1,11 @@
 import React from "react";
 
-import "./aboutMe.module.scss";
+import cls from "./about-me.module.scss";
 
 interface AboutMeProps {}
 
 const AboutMe: React.FC<AboutMeProps> = () => (
-  <h1 className="">AboutMe Component</h1>
+  <div className={cls.wrapper}>Hello world</div>
 );
 
 export default AboutMe;
