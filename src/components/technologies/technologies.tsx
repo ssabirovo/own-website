@@ -5,6 +5,8 @@ import icon from "../../assets/icons/html.png";
 
 interface TechnologiesItem {}
 
+
+
 const Technologies: React.FC<TechnologiesItem> = () => (
   <div className={cls.wrapper}>
     <div className={cls.technologies}>

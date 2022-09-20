@@ -1,6 +1,6 @@
 import React from "react";
 
-const Home: React.FC = () => (
+const Home: React.ReactNode = (
   <svg
     width="40"
     height="36"
