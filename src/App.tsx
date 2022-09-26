@@ -1,11 +1,11 @@
-import { AboutMe, Technologies } from "./components";
 import "./assets/base.scss";
+
+import Nav from "./components/nav";
 
 function App() {
   return (
     <>
-      <AboutMe />
-      <Technologies />
+      <Nav />
     </>
   );
 }

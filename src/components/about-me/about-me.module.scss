@@ -1,10 +1,5 @@
 .wrapper {
-  height: 100vh;
-  color: white;
-  display: grid;
-  place-content: center;
-  padding: 0 80px;
-
+  padding: 4vw 6vw;
   .info-wrapper {
     display: grid;
     grid-template-columns: 30% 60%;
@@ -14,6 +9,7 @@
     border: 11px solid #ffffff;
     box-shadow: 1px 1px 39px 8px rgba(255, 0, 0, 0.64);
     border-radius: 61px;
+    overflow: hidden;
   }
 
   .info {
@@ -64,8 +60,9 @@
   @media (max-width: 428px) {
     .info-wrapper {
       display: block;
-      padding: 55px 44px;
+      padding: 0;
     }
+
     .info {
       .title {
         font-size: 24px;

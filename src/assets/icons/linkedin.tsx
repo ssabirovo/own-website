@@ -1,6 +1,6 @@
 import React from "react";
 
-const Linkedin: React.FC = () => (
+const Linkedin: React.ReactNode = (
   <svg
     width="30"
     height="30"
