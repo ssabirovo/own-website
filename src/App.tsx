@@ -1,11 +1,10 @@
 import "./assets/base.scss";
-
-import Nav from "./components/nav";
+import Main from "./pages/main/main";
 
 function App() {
   return (
     <>
-      <Nav />
+      <Main />
     </>
   );
 }

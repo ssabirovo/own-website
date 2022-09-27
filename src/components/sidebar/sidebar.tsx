@@ -10,9 +10,9 @@ interface AboutMeProps {}
 
 const AboutMe: React.FC<AboutMeProps> = () => (
   <div className={cls.wrapper}>
-    <a href="#1">{Home}</a>
-    <a href="#1">{Portfolio}</a>
-    <a href="#1">{Card}</a>
+    <a href="#home">{Home}</a>
+    <a href="#about">{Card}</a>
+    <a href="#projects">{Portfolio}</a>
     <div>{Rgb}</div>
     
   </div>

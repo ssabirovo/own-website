@@ -1,6 +1,10 @@
 .wrapper {
   padding: 4vw 6vw;
+  width: 100%;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   .projects {
     border: 11px solid #ffffff;
     border-radius: 61px;
@@ -14,7 +18,7 @@
       line-height: 92px;
 
       color: #ffffff;
-      color: #ffffff;
+
       text-align: center;
     }
 

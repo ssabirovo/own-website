@@ -1,5 +1,10 @@
 .wrapper {
   padding: 4vw 6vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   .info-wrapper {
     display: grid;
     grid-template-columns: 30% 60%;
@@ -7,7 +12,7 @@
     align-items: center;
     padding: 82px 59px 133px;
     border: 11px solid #ffffff;
-    box-shadow: 1px 1px 39px 8px rgba(255, 0, 0, 0.64);
+
     border-radius: 61px;
     overflow: hidden;
   }
