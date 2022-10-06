@@ -4,8 +4,10 @@
   justify-content: space-between;
   align-items: center;
   height: max-content;
+
   @media (max-width: 610px) {
     flex-direction: column;
+    height: 100vh;
   }
   .middle {
     display: flex;
@@ -17,7 +19,8 @@
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
     @media (max-width: 610px) {
-      height: 80vh;
+      height: 85vh;
+      width: 100%;
     }
 
     &::-webkit-scrollbar {
@@ -60,7 +63,8 @@
     align-items: center;
     flex-direction: column;
     @media (max-width: 610px) {
-      height: 80vh;
+      height: 85vh;
+      flex-direction: row;
     }
   }
 

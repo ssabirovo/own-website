@@ -26,12 +26,12 @@ const Main: React.FC<MainProps> = () => (
         <div className={cls.section}>
           <AboutMe />
         </div>
-        {/* <div className={cls.section}>
+        <div className={cls.section}>
           <Technologies />
         </div>
         <div className={cls.section}>
           <Projects />
-        </div> */}
+        </div>
       </div>
     </div>
     <Links />
