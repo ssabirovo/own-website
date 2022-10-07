@@ -1,27 +1,58 @@
 .wrapper {
+  max-width: 800px;
   display: flex;
   color: #fff;
   justify-content: center;
   align-items: center;
-  padding: 1rem 1rem;
+  padding: 5rem 3rem;
   margin: 1rem 1rem;
   border: 6px solid #ffffff;
   border-radius: 61px;
-  gap: 1rem;
+  gap: 4rem;
+  @media (max-width: 1130px) {
+    padding: 3rem 2rem;
+  }
+  @media (max-width: 960px) {
+    padding: 2rem 2rem;
+    gap: 2rem;
+  }
+  @media (max-width: 420px) {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 0rem;
+  }
   img {
     width: 200px;
+    @media (max-width: 960px) {
+      width: 100px;
+    }
   }
   .info {
     width: 70%;
     font-family: "Hammersmith One";
+    font-size: 28px;
+    @media (max-width: 1130px) {
+      font-size: 23px;
+    }
+    @media (max-width: 960px) {
+      font-size: 16px;
+    }
+    @media (max-width: 960px) {
+      font-size: 16px;
+    }
+    @media (max-width: 960px) {
+      font-size: 16px;
+    }
+    @media (max-width: 650px) {
+      font-size: 13px;
+      width: 90%;
+    }
 
     h2 {
-      font-size: 28px;
       padding: 1rem 0;
     }
     p {
       padding: 1rem 0;
-      font-size: 28px;
     }
   }
 }

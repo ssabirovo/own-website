@@ -18,10 +18,10 @@ const Rgb: React.ReactNode = (
         y2="40"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stop-color="#FF0000" />
-        <stop offset="0.473958" stop-color="#0EFB17" />
-        <stop offset="0.9999" stop-color="#6B55F0" />
-        <stop offset="1" stop-color="#00B2FF" />
+        <stop stopColor="#FF0000" />
+        <stop offset="0.473958" stopColor="#0EFB17" />
+        <stop offset="0.9999" stopColor="#6B55F0" />
+        <stop offset="1" stopColor="#00B2FF" />
       </linearGradient>
     </defs>
   </svg>

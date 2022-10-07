@@ -10,9 +10,9 @@
 <use xlink:href="#image0_12_142" transform="translate(0.118912) scale(0.00172166 0.00245098)"/>
 </pattern>
 <linearGradient id="paint0_linear_12_142" x1="28.5" y1="51" x2="161" y2="176" gradientUnits="userSpaceOnUse">
-<stop stop-color="#A41DFF"/>
-<stop offset="0.0001" stop-color="#9800FF"/>
-<stop offset="1" stop-color="#7E00FF"/>
+<stop stopColor="#A41DFF"/>
+<stop offset="0.0001" stopColor="#9800FF"/>
+<stop offset="1" stopColor="#7E00FF"/>
 </linearGradient>
 <clipPath id="clip0_12_142">
 <rect width="178" height="213" rx="13" fill="white"/>

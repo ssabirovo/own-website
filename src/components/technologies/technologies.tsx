@@ -19,7 +19,7 @@ const Technologies: React.FC<TechnologiesItem> = () => (
   <div className={cls.wrapper}>
     <div className={cls.technologies}>
       <div className={cls.title}>Technologies</div>
-      <div className={cls["technologies-box"]}>
+      <div className={cls["technology-box"]}>
         {items.map((item) => (
           <div className={cls.technology}>
             <img className={cls.img} src={item} alt="" />

@@ -13,10 +13,12 @@
   animation-name: example;
   animation-duration: 9s;
   animation-iteration-count: infinite;
+  @media (max-width: 910px) {
+  }
   @media (max-width: 610px) {
     flex-direction: row;
     padding: 1rem 1.6rem;
-    margin: .8rem 1.6rem;
+    margin: 0.8rem 1.6rem;
   }
   img {
     width: 300px;
@@ -28,6 +30,9 @@
     svg {
       width: 30px;
       height: auto;
+      @media (max-width: 910px) {
+        width: 20px;
+      }
     }
   }
 }

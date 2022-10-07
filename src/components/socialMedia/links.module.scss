@@ -12,7 +12,7 @@
     padding: 1rem 1.6rem;
     margin: 0rem 0rem;
   }
-  
+
   a {
     svg {
       color: white;
@@ -21,6 +21,9 @@
       }
       @media (max-width: 715px) {
         width: 30px;
+      }
+      @media (max-width: 910px) {
+        width: 20px;
       }
       &:hover {
         animation-name: example;

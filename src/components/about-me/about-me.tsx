@@ -10,7 +10,7 @@ const AboutMe: React.FC<AboutMeProps> = () => (
     <img src={Photo} alt="" />
 
     <div className={cls.info}>
-      <h2 className={cls.title}>Sobirov Muhiddin</h2>
+      <h3 className={cls.title}>Sobirov Muhiddin</h3>
       <p className={cls.paragraph}>
         i'm junior frontend developer. i work as a trainee for a two month for
         my mentor’s company. Whether you’re trying to find disciplined,
